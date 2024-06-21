@@ -1,0 +1,23 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.sidebar__link:hover {
+  background-color: #e1e8ed;
+  border-radius: 10px;
+}
+
+.sidebar__link svg {
+  margin-right: 10px;
+}

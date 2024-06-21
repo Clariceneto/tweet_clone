@@ -1,0 +1,45 @@
+.tweet {
+  border: 1px solid #e1e8ed;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.tweet__header {
+  font-weight: bold;
+}
+
+.tweet__content {
+  margin-top: 10px;
+}
+
+.tweet__image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.tweet__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.tweet__likeButton {
+  background-color: transparent;
+  border: none;
+  color: #1da1f2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tweet__likeButton:hover {
+  color: #0d8bf2;
+}
+
+.tweet__likeButton svg {
+  margin-right: 5px;
+}

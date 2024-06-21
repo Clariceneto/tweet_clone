@@ -1,0 +1,13 @@
+.header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e6ecf0;
+    background-color: white;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  

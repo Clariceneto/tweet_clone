@@ -1,0 +1,19 @@
+.home {
+  flex: 1;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.home__header {
+  position: -sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 15px;
+  border-bottom: 1px solid #e1e8ed;
+  z-index: 100;
+}
+
+.home__header h2 {
+  font-size: 20px;
+  font-weight: 800;
+}

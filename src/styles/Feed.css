@@ -1,0 +1,18 @@
+.feed {
+  flex: 0.4;
+  border-right: 1px solid #e6ecf0;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #fff;
+}
+
+
+.feed__header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #e6ecf0;
+  background-color: #fff;
+  position: -webkit-sticky; /* Adicionado para suporte a Safari em iOS < 13 */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}

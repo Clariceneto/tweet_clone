@@ -1,0 +1,53 @@
+:root {
+  --background-light: #ffffff;
+  --background-dark: #333333;
+  --text-light: #000000;
+  --text-dark: #ffffff;
+}
+
+.light {
+  --background: var(--background-light);
+  --text: var(--text-light);
+}
+
+.dark {
+  --background: var(--background-dark);
+  --text: var(--text-dark);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.app {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.landing-buttons a {
+  margin: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: var(--text);
+  border-radius: 5px;
+}
